@@ -26,6 +26,22 @@
             About
           </router-link>
         </li>
+        <li>
+          <router-link
+            :to="{ name: 'Shop' }"
+            class="btn text-success lighten-30 selectable text-uppercase"
+          >
+            Shop
+          </router-link>
+        </li>
+        <li>
+          <router-link
+            :to="{ name: 'Contact' }"
+            class="btn text-success lighten-30 selectable text-uppercase"
+          >
+            Contact
+          </router-link>
+        </li>
       </ul>
       <!-- LOGIN COMPONENT HERE -->
       <Login />
