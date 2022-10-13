@@ -3,6 +3,7 @@
 @import "./_overrides.scss";
 @import "./utilities.scss";
 @import "./loaders.scss";
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap');
 
 body{
   overscroll-behavior: none;
@@ -39,4 +40,9 @@ select {
 form:invalid button[type="submit"] {
   filter: grayscale(1);
   pointer-events: none;
+}
+
+.headerText {
+  font-family: 'The Nautigal', cursive;
+  font-size: 48px;
 }

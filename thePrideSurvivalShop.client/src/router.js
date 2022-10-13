@@ -12,9 +12,9 @@ const routes = [
     component: loadPage('HomePage')
   },
   {
-    path: '/about',
-    name: 'About',
-    component: loadPage('AboutPage')
+    path: '/exercises',
+    name: 'Exercises',
+    component: loadPage('ExercisePage')
   },
   {
     path: '/shop',
@@ -24,6 +24,36 @@ const routes = [
   {
     path: '/contact',
     name: 'Contact',
+    component: loadPage('ContactPage')
+  },
+  {
+    path: '/about',
+    name: 'About',
+    component: loadPage('ContactPage')
+  },
+  {
+    path: '/skills',
+    name: 'Skills',
+    component: loadPage('ContactPage')
+  },
+  {
+    path: '/challenges',
+    name: 'Challenges',
+    component: loadPage('ContactPage')
+  },
+  {
+    path: '/subscription',
+    name: 'Subscription',
+    component: loadPage('SubscriptionPage')
+  },
+  {
+    path: '/achievments',
+    name: 'Achievments',
+    component: loadPage('ContactPage')
+  },
+  {
+    path: '/groups',
+    name: 'Groups',
     component: loadPage('ContactPage')
   },
   {

@@ -7,4 +7,5 @@ export const ProductSchema = new Schema({
   quantity: { type: String, required: true},
   currency: { type: String, required: true},
   description: { type: String, required: true},
+  imageUrl: { type: String, required: true},
 }, { timestamps: true, toJSON: { virtuals: true } })
