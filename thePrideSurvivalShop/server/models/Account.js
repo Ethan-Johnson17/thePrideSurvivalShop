@@ -7,7 +7,7 @@ export const AccountSchema = new Schema(
     email: { type: String, lowercase: true, unique: true },
     name: { type: String, required: true },
     picture: { type: String },
-    subscription: { type: String, required: true, default: 'free'}
+    membership: { type: String, required: true, default: 'free'}
     // NOTE If you wish to add additional properties do so here
   },
   { timestamps: true, toJSON: { virtuals: true } }

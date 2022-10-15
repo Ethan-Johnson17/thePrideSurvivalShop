@@ -1,7 +1,7 @@
 <template>
     <div class="container-fluid bg-grey">
       <div class="row">
-        <ul class="subscriber-nav d-flex justify-content-evenly">
+        <ul class="membership-nav d-flex justify-content-evenly">
           <li>
             <router-link :to="{ name: 'Exercises' }" class="btn text-dark lighten-30 selectable text-uppercase">
               Exercises
@@ -13,8 +13,8 @@
             </router-link>
           </li>
           <li>
-            <router-link :to="{ name: 'Achievments' }" class="btn text-dark lighten-30 selectable text-uppercase">
-              Achievments
+            <router-link :to="{ name: 'Achievements' }" class="btn text-dark lighten-30 selectable text-uppercase">
+              Achievements
             </router-link>
           </li>
           <li>
@@ -44,7 +44,7 @@ export default {
 </script>
 
 <style>
-.subscriber-nav {
+.membership-nav {
   /* padding-left: 5rem; */
   margin-bottom: 0;
   list-style: none;

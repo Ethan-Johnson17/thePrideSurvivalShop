@@ -42,13 +42,13 @@ const routes = [
     component: loadPage('ContactPage')
   },
   {
-    path: '/subscription',
-    name: 'Subscription',
-    component: loadPage('SubscriptionPage')
+    path: '/membership',
+    name: 'Membership',
+    component: loadPage('MembershipPage')
   },
   {
-    path: '/achievments',
-    name: 'Achievments',
+    path: '/achievements',
+    name: 'Achievements',
     component: loadPage('ContactPage')
   },
   {

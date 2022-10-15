@@ -32,10 +32,10 @@
         </li>
         <li>
           <router-link
-            :to="{ name: 'Subscription' }"
+            :to="{ name: 'Membership' }"
             class="btn text-success lighten-30 selectable text-uppercase"
           >
-            Subscription
+            Membership
           </router-link>
         </li>
         <li>

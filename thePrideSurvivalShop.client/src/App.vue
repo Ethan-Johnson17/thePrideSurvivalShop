@@ -1,7 +1,7 @@
 <template>
   <header>
     <Navbar />
-    <SubscriberNav v-show="route.path === '/subscription'"/>
+    <MembershipNav v-show="appState.account.membership"/>
   </header>
   <main>
     <router-view />
@@ -23,7 +23,6 @@ export default {
   setup() {
     const route = useRoute()
     const router = useRouter()
-    console.log(route.path)
     return {
       appState: computed(() => AppState),
       route
